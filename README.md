@@ -41,7 +41,7 @@ To build the docker image, copy the bash script included in the `bash_scripts/` 
 ```
 
 Given the docker image availability, there are 2 ways to deploy it:
- - using the MAPE docker-compose project
+ - using the [MAPE docker-compose](https://github.com/5g-media/mape) project
  - manual deployment as standalone container
 
 For manual deployment in a linux VM, download the code from the repo in the user home (e.g. `/home/ubuntu`) and follow the below steps:
@@ -85,7 +85,6 @@ $ service supervisor stop
 
 ## Authors
 - Singular Logic <pathanasoulis@ep.singularlogic.eu>
-- 
 
 ## Contributors
  - Contact with Authors
